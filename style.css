@@ -25,8 +25,10 @@ header {
     text-decoration: none; /* Remove underline */
 }
 .navbar li a:hover {
-    background-color: #4c4747; /* Change background on hover */
-text-decoration: none; /* Remove underline on hover */
+    background-color: #2db2ff; /* Change background on hover */
+    transition: color 0.3s ease; /* Smooth color transition */
+    display: inline-block; /* Make the logo an inline block */
+
 }
 footer {
     background-color: #05065a; /* Footer background color */
@@ -34,6 +36,16 @@ footer {
     text-align: center; /* Center the footer text */
     padding: 10px 10; /* Padding for footer */
     align-items: bottom; /* Align footer to the bottom */
+}
+footer a  {
+    text-decoration: none; /* Remove underline from footer links */
+    color: #ffffff;
+}
+footer a:hover {
+    color: #2db2ff; /* Change footer link color on hover */
+    transition: color 0.3s ease; /* Smooth color transition */
+    display: inline-block; /* Make the link an inline block */
+
 }
 .logo a {
     font-size: 24px; /* Logo font size */
@@ -106,8 +118,6 @@ background-color: #000000; /* Logo background color */
     font-size: 16px;
     cursor: pointer;
 }
-/* Responsive styles */
-@media (max-width: 600px) 
 
 .login-form button:hover {
     background-color: #2db2ff;
