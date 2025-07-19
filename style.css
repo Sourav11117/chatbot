@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;;
+}
+header {
+    background-color: #05065a; /* Header background color */
+    padding: 10px; /* Padding for header */
+}
+.navbar {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Clear floats */
+    size-adjust: 50%; /* Adjust size for better visibility */;
+
+}
+.navbar li {
+    float: right; /* Align items horizontally */
+    background-color: #000000; /* Background color */
+}
+.navbar li a {
+    display: block; /* Make the link fill the list item */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 14px 16px; /* Padding */
+    text-decoration: none; /* Remove underline */
+}
+.navbar li a:hover {
+    background-color: #4c4747; /* Change background on hover */
+text-decoration: none; /* Remove underline on hover */
+}
+footer {
+    background-color: #05065a; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Center the footer text */
+    padding: 10px 10; /* Padding for footer */
+    align-items: bottom; /* Align footer to the bottom */
+}
+.logo a {
+    font-size: 24px; /* Logo font size */
+    color: white; /* Logo text color */
+    font-weight: bold; /* Make the logo bold */
+    text-decoration: none; /* Remove underline from logo */
+background-color: #000000; /* Logo background color */
+    padding: 10px; /* Padding for logo */
+    border-radius: 5px; /* Rounded corners for logo */
+    display: inline-block; /* Make the logo an inline block */
+}
+.logo a:hover {
+    color: #2db2ff; /* Change logo color on hover */
+
+}
+.footer {
+    background-color: #05065a; /* Footer background color */
+    color: white; /* Footer text color */
+    padding: 20px; /* Padding for footer */
+    border-radius: 5px; /* Position relative for footer */
+    bottom: 0; /* Align footer to the bottom */
+}
+.content {
+    padding: 20px; /* Padding for content */
+    background-color: #f4f4f4; /* Light background for content */
+    margin: 20px; /* Margin around content */
+    border-radius: 5px; /* Rounded corners for content */
+}
+
+/* Login form styles */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #05065a;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #05065a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #2db2ff;
+}
+
