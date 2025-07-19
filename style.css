@@ -106,6 +106,22 @@ background-color: #000000; /* Logo background color */
     font-size: 16px;
     cursor: pointer;
 }
+/* Responsive styles */
+@media (max-width: 600px) {
+    .navbar li {
+        float: none; /* Stack items vertically on small screens */
+        text-align: center; /* Center text for small screens */
+    }
+    .navbar li a {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    .content, .footer {
+        margin: 10px; /* Reduce margin for smaller screens */
+    }
+    .login-form {
+        width: 90%; /* Make login form responsive */
+    }
+}
 
 .login-form button:hover {
     background-color: #2db2ff;
